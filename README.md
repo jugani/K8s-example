@@ -1,1 +1,1 @@
-# K8s-example
+# K8s-examples
