@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod
+  labels:
+    env: prod #User defined, could be anything
+    type: DC
+spec:
+  containers:
+  - name: sample-cotainer
+    image: nginx
+    ports:
+    - containerPort: 80
+    - containerPort: 443
+
